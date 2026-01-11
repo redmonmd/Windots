@@ -10,11 +10,10 @@
     "initialCols": 150,
     "initialPosition": ",",
     "initialRows": 38,
-    "keybindings": 
-    [
+    "keybindings": [
         {
             "id": "Terminal.CopyToClipboard",
-            "keys": "ctrl+c"
+            "keys": "ctrl+shift+c"
         },
         {
             "id": "Terminal.FindText",
@@ -22,7 +21,7 @@
         },
         {
             "id": "Terminal.PasteFromClipboard",
-            "keys": "ctrl+v"
+            "keys": "ctrl+shift+v"
         },
         {
             "id": "Terminal.DuplicatePaneAuto",
@@ -30,19 +29,16 @@
         }
     ],
     "launchMode": "focus",
-    "newTabMenu": 
-    [
+    "newTabMenu": [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
+            "bellstyle": "none",
             "colorScheme": "cyberdream",
-            "font": 
-            {
+            "font": {
                 "face": "JetBrainsMono Nerd Font",
                 "size": 10.4
             },
@@ -51,8 +47,7 @@
             "scrollbarState": "hidden",
             "useAcrylic": true
         },
-        "list": 
-        [
+        "list": [
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -73,8 +68,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#16181A",
             "black": "#16181A",
