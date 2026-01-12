@@ -39,6 +39,9 @@ $wingetDeps = @(
     "sst.opencode"
     "starship.starship"
     "task.task"
+    "LGUG2Z.komorebi"
+    "LGUG2Z.whkd"
+    "AmN.yasb"
 )
 $chocoDeps = @(
     "altsnap"
