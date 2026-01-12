@@ -124,3 +124,9 @@ git config --global user.name $currentGitName | Out-Null
 bat cache --clear
 bat cache --build
 
+# Enable komorebi & YASB autostart
+komorebic enable-autostart
+komorebic start
+
+yasbc enable-autostart
+yasbc start
