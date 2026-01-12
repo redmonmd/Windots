@@ -2,5 +2,5 @@
 
 ### Based on Scott McKendry's "Windots repo -- Modified by redmonmd
 
-![Picture of King Bob](/Assets/kingbobgif.gif)
+![Picture of King Bob](https://gifdb.com/gif/minions-king-bob-jgjuprjhq9bpecxb.html?embed=true)
 Please visit [the original](https://github.com/scottmckendry/Windots.git/) so you can get a feel for the work Scott has done. This is my build off of his work.
