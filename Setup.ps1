@@ -44,7 +44,6 @@ $wingetDeps = @(
     "AmN.yasb"
 )
 $chocoDeps = @(
-    "altsnap"
     "bat"
     "fd"
     "fzf"
