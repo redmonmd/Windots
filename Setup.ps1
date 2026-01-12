@@ -21,6 +21,8 @@ $symlinks = @{
     "$HOME\AppData\Roaming\lazygit"                                                                 = ".\lazygit"
     "$HOME\AppData\Roaming\AltSnap\AltSnap.ini"                                                     = ".\altsnap\AltSnap.ini"
     "$ENV:PROGRAMFILES\WezTerm\wezterm_modules"                                                     = ".\wezterm\"
+    "$HOME\.config\komorebi\"                                                                       = ".\.config\komorebi\"
+    "$HOME\.config\yasb\"                                                                           = ".\.config\yasb"
 }
 
 # Winget & choco dependencies
