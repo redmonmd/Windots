@@ -23,6 +23,7 @@ $symlinks = @{
     "$ENV:PROGRAMFILES\WezTerm\wezterm_modules"                                                     = ".\wezterm\"
     "$HOME\.config\komorebi\"                                                                       = ".\.config\komorebi\"
     "$HOME\.config\yasb\"                                                                           = ".\.config\yasb\"
+    "$HOME\.config\whkdrc"                                                                          = ".\.config\whkdrc"
 }
 
 # Winget & choco dependencies
@@ -125,8 +126,8 @@ bat cache --clear
 bat cache --build
 
 # Enable komorebi & YASB autostart
-komorebic enable-autostart
-komorebic start
+komorebic enable-autostart --whkd
+komorebic start --whkd
 
 yasbc enable-autostart
 yasbc start
