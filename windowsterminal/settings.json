@@ -49,6 +49,7 @@
             "padding": "10",
             "scrollbarState": "hidden",
             "useAcrylic": true
+            "bellStyle": "none"
         },
         "list": [
             {
