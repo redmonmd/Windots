@@ -122,4 +122,3 @@ git config --global user.name $currentGitName | Out-Null
 bat cache --clear
 bat cache --build
 
-.\altsnap\createTask.ps1 | Out-Null
