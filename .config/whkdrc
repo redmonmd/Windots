@@ -12,6 +12,7 @@ alt + i                 : komorebic toggle-shortcuts
 # alt + b                 : if ($wshell.AppActivate('Firefox') -eq $False) { start firefox }
 # alt + b                 : if ($wshell.AppActivate('Chrome') -eq $False) { start chrome }
 
+alt + s                 : komorebic stop
 alt + q                 : komorebic close
 alt + m                 : komorebic minimize
 
