@@ -29,7 +29,7 @@
         },
         {
             "id": "Terminal.CommandPallete",
-            "keys": "crtl+enter"
+            "keys": "ctrl+shift+p"
         }
     ],
     "launchMode": "focus",
