@@ -27,8 +27,8 @@ Set-Alias -Name us -Value Update-Software
 Set-Alias -Name vi -Value nvim
 Set-Alias -Name vim -Value nvim
 Set-Alias -Name which -Value Show-Command
-
-
+#  TODO: Get Set-Wallpaer working
+# Set-Alias -Name Set-Wallpaper -Value .\C:\Scripts\Set-Wallpaper.ps1
 # Putting the FUN in Functions 🎉
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 function Find-WindotsRepository {
