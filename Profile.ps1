@@ -322,6 +322,10 @@ function Invoke-Starship-TransientFunction {
     &starship module character
 }
 
+function ssh-copy-id ($identityfile, $userhost) {
+    type $env:USERPROFILE\.ssh\$identityfile | ssh $userhost "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys && chmod -R go= ~/.ssh && cat >> ~/.ssh/authorized_keys"
+}
+
 Invoke-Expression (&starship init powershell)
 Enable-TransientPrompt
 Invoke-Expression (& { ( zoxide init powershell --cmd cd | Out-String ) })
