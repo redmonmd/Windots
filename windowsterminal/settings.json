@@ -26,6 +26,10 @@
         {
             "id": "Terminal.DuplicatePaneAuto",
             "keys": "alt+shift+d"
+        },
+        {
+            "id": "Terminal.CommandPallete",
+            "keys": "crtl+enter"
         }
     ],
     "launchMode": "focus",
@@ -36,7 +40,6 @@
     ],
     "profiles": {
         "defaults": {
-            "bellstyle": "none",
             "colorScheme": "cyberdream",
             "font": {
                 "face": "JetBrainsMono Nerd Font",
@@ -45,7 +48,7 @@
             "opacity": 90,
             "padding": "10",
             "scrollbarState": "hidden",
-            "useAcrylic": true
+            "bellStyle": "none"
         },
         "list": [
             {
