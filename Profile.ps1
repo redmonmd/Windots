@@ -27,6 +27,7 @@ Set-Alias -Name us -Value Update-Software
 Set-Alias -Name vi -Value nvim
 Set-Alias -Name vim -Value nvim
 Set-Alias -Name which -Value Show-Command
+Set-Alias -Name Set-Wallpaper -Value .C:\scripts\Set-Wallpaper.ps1
 
 
 # Putting the FUN in Functions 🎉

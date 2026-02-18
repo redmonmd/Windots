@@ -19,11 +19,11 @@ $symlinks = @{
     "$HOME\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" = ".\windowsterminal\settings.json"
     "$HOME\.gitconfig"                                                                              = ".\.gitconfig"
     "$HOME\AppData\Roaming\lazygit"                                                                 = ".\lazygit"
-    "$HOME\AppData\Roaming\AltSnap\AltSnap.ini"                                                     = ".\altsnap\AltSnap.ini"
+    # "$HOME\AppData\Roaming\AltSnap\AltSnap.ini"                                                     = ".\altsnap\AltSnap.ini"
     "$ENV:PROGRAMFILES\WezTerm\wezterm_modules"                                                     = ".\wezterm\"
-    "$HOME\.config\komorebi\"                                                                       = ".\.config\komorebi\"
-    "$HOME\.config\yasb\"                                                                           = ".\.config\yasb\"
-    "$HOME\.config\whkdrc"                                                                          = ".\.config\whkdrc"
+    # "$HOME\.config\komorebi\"                                                                       = ".\.config\komorebi\"
+    # "$HOME\.config\yasb\"                                                                           = ".\.config\yasb\"
+    # "$HOME\.config\whkdrc"                                                                          = ".\.config\whkdrc"
 }
 
 # Winget & choco dependencies
@@ -42,9 +42,9 @@ $wingetDeps = @(
     "sst.opencode"
     "starship.starship"
     "task.task"
-    "LGUG2Z.komorebi"
-    "LGUG2Z.whkd"
-    "AmN.yasb"
+    # "LGUG2Z.komorebi"
+    # "LGUG2Z.whkd"
+    # "AmN.yasb"
 )
 $chocoDeps = @(
     "bat"
@@ -124,10 +124,3 @@ git config --global user.name $currentGitName | Out-Null
 # Install bat themes
 bat cache --clear
 bat cache --build
-
-# Enable komorebi & YASB autostart
-komorebic enable-autostart --whkd
-komorebic start --whkd
-
-yasbc enable-autostart
-yasbc start
