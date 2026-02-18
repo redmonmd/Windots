@@ -27,9 +27,14 @@ Set-Alias -Name us -Value Update-Software
 Set-Alias -Name vi -Value nvim
 Set-Alias -Name vim -Value nvim
 Set-Alias -Name which -Value Show-Command
+<<<<<<< HEAD
 Set-Alias -Name Set-Wallpaper -Value .C:\scripts\Set-Wallpaper.ps1
 
 
+=======
+#  TODO: Get Set-Wallpaer working
+# Set-Alias -Name Set-Wallpaper -Value .\C:\Scripts\Set-Wallpaper.ps1
+>>>>>>> test
 # Putting the FUN in Functions 🎉
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 function Find-WindotsRepository {
@@ -321,6 +326,10 @@ Start-ThreadJob -ScriptBlock {
 
 function Invoke-Starship-TransientFunction {
     &starship module character
+}
+
+function ssh-copy-id ($identityfile, $userhost) {
+    type $env:USERPROFILE\.ssh\$identityfile | ssh $userhost "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys && chmod -R go= ~/.ssh && cat >> ~/.ssh/authorized_keys"
 }
 
 Invoke-Expression (&starship init powershell)
