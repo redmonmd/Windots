@@ -326,8 +326,18 @@ function Invoke-Starship-TransientFunction {
     &starship module character
 }
 
-function ssh-copy-id ($identityfile, $userhost) {
-    type $env:USERPROFILE\.ssh\$identityfile | ssh $userhost "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys && chmod -R go= ~/.ssh && cat >> ~/.ssh/authorized_keys"
+function ssh-copy-id {
+    param(
+        [Parameter(Mandatory=$true)]
+        [string]$RemoteHost,
+        [string]$KeyPath = "$env:USERPROFILE\.ssh\homelab.pub"
+    )
+    if (Test-Path $KeyPath) {
+        $pubKey = Get-Content $KeyPath
+        ssh $RemoteHost "mkdir -p ~/.ssh; chmod 700 ~/.ssh; echo '$pubKey' >> ~/.ssh/authorized_keys; chmod 600 ~/.ssh/authorized_keys"
+    } else {
+        Write-Error "Public key not found at $KeyPath"
+    }
 }
 
 Invoke-Expression (&starship init powershell)
