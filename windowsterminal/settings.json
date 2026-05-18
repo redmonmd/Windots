@@ -15,10 +15,6 @@
             "id": "copy",
             "keys": "ctrl+shift+c"
         },
-        // {
-        //     "id": null,
-        //     "keys": "ctrl+shift+f"
-        // },
         {
             "id": "paste",
             "keys": "ctrl+shift+v"
@@ -27,10 +23,6 @@
             "id": "commandPallete",
             "keys": "ctrl+shift+p"
         }
-        // {
-        //     "id": null,
-        //     "keys": "alt+shift+d"
-        // }
     ],
     "launchMode": "focus",
     "newTabMenu": [
