@@ -12,25 +12,25 @@
     "initialRows": 38,
     "keybindings": [
         {
-            "id": "Terminal.CopyToClipboard",
+            "id": "copy",
             "keys": "ctrl+shift+c"
         },
+        // {
+        //     "id": null,
+        //     "keys": "ctrl+shift+f"
+        // },
         {
-            "id": "Terminal.FindText",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "id": "Terminal.PasteFromClipboard",
+            "id": "paste",
             "keys": "ctrl+shift+v"
         },
         {
-            "id": "Terminal.DuplicatePaneAuto",
-            "keys": "alt+shift+d"
-        },
-        {
-            "id": "Terminal.CommandPallete",
+            "id": "commandPallete",
             "keys": "ctrl+shift+p"
         }
+        // {
+        //     "id": null,
+        //     "keys": "alt+shift+d"
+        // }
     ],
     "launchMode": "focus",
     "newTabMenu": [
@@ -68,6 +68,18 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{f509070c-62ce-595a-bcb5-6b5d0c12e714}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 18 (2)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{1c8df21b-2085-5c8c-9112-fd601fa0ff70}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 18 (2)",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
