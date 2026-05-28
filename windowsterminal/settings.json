@@ -10,7 +10,8 @@
     "initialCols": 150,
     "initialPosition": ",",
     "initialRows": 38,
-    "keybindings": [
+    "keybindings": 
+    [
         {
             "id": "copy",
             "keys": "ctrl+shift+c"
@@ -25,16 +26,20 @@
         }
     ],
     "launchMode": "focus",
-    "newTabMenu": [
+    "newTabMenu": 
+    [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": {
-        "defaults": {
+    "profiles": 
+    {
+        "defaults": 
+        {
             "bellStyle": "none",
             "colorScheme": "cyberdream",
-            "font": {
+            "font": 
+            {
                 "face": "JetBrainsMono Nerd Font",
                 "size": 10.4
             },
@@ -42,7 +47,8 @@
             "padding": "10",
             "scrollbarState": "hidden"
         },
-        "list": [
+        "list": 
+        [
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -75,7 +81,8 @@
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
             "background": "#16181A",
             "black": "#16181A",
