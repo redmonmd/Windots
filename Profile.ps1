@@ -265,7 +265,7 @@ function Remove-ItemExtended {
 
 # Environment Variables 🌐
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-$ENV:WindotsLocalRepo = Find-WindotsRepository -ProfilePath $PSScriptRoot
+$ENV:WindotsLocalRepo = C:/Users/dmr/Windots/
 $ENV:STARSHIP_CONFIG = "$ENV:WindotsLocalRepo\starship\starship.toml"
 $ENV:_ZO_DATA_DIR = $ENV:WindotsLocalRepo
 $ENV:OBSIDIAN_PATH = "$HOME\notes\obsidian-vault"
