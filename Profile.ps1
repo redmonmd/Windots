@@ -34,22 +34,6 @@ Set-Alias -Name Set-Wallpaper -Value .C:\scripts\Set-Wallpaper.ps1
 #  TODO: Get Set-Wallpaer working
 # Set-Alias -Name Set-Wallpaper -Value .\C:\Scripts\Set-Wallpaper.ps1
 # Putting the FUN in Functions 🎉
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# function Find-WindotsRepository {
-#     <#
-#     .SYNOPSIS
-#         Finds the local Windots repository.
-#     #>
-#     [CmdletBinding()]
-#     param (
-#         [Parameter(Mandatory = $true, Position = 0)]
-#         [string]$ProfilePath
-#     )
-#
-#     Write-Verbose "Resolving the symbolic link for the profile"
-#     $profileSymbolicLink = Get-ChildItem $ProfilePath | Where-Object FullName -EQ $PROFILE.CurrentUserAllHosts
-#     return Split-Path $profileSymbolicLink.Target
-# }
 
 function Update-Profile {
     <#
